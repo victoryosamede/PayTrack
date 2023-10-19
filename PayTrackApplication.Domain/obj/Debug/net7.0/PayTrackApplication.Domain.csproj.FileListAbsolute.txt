@@ -1,0 +1,12 @@
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\bin\Debug\net7.0\PayTrackApplication.Domain.deps.json
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\bin\Debug\net7.0\PayTrackApplication.Domain.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\bin\Debug\net7.0\PayTrackApplication.Domain.pdb
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\refint\PayTrackApplication.Domain.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\PayTrackApplication.Domain.pdb
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Domain\obj\Debug\net7.0\ref\PayTrackApplication.Domain.dll

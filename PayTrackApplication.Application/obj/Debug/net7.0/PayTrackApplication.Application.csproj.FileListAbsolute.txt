@@ -1,0 +1,17 @@
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Application.deps.json
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Application.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Application.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Application.pdb
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Domain.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\bin\Debug\net7.0\PayTrackApplication.Domain.pdb
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.csproj.CopyComplete
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\refint\PayTrackApplication.Application.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.pdb
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\PayTrackApplication.Application.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Application\obj\Debug\net7.0\ref\PayTrackApplication.Application.dll

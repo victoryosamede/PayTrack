@@ -1,0 +1,5 @@
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Presentation\obj\Debug\net7.0\PayTrackApplication.Presentation.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Presentation\obj\Debug\net7.0\PayTrackApplication.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Presentation\obj\Debug\net7.0\PayTrackApplication.Presentation.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Presentation\obj\Debug\net7.0\PayTrackApplication.Presentation.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication.Presentation\obj\Debug\net7.0\PayTrackApplication.Presentation.csproj.CoreCompileInputs.cache
