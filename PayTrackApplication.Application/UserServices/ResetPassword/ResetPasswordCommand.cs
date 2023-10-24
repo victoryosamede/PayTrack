@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.ResetPassword
 {
-    public class ResetPasswordCommand: CommandBase
+    public class ResetPasswordCommand: Request
     {
         [Required]
         public required string Token { get; set; }

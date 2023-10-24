@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.ChangePassword
 {
-    public class ChangePasswordCommand: CommandBase
+    public class ChangePasswordCommand: Request
     {
         [Required]
         [DataType(DataType.Password)]

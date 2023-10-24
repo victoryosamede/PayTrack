@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.LoginUser
 {
-    public class LoginUserCommand: CommandBase
+    public class LoginUserCommand: Request
     {
         [MaxLength(60), MinLength(3)]
         public required string UserName { get; set; }

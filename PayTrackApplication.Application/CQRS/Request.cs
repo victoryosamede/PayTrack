@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.CQRS
 {
-    public class CommandBase:IRequest<ActionResponse>
+    public class Request:IRequest<ActionResponse>
     {
         public virtual ActionResponse Validate()
         {

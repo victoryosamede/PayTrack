@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.GetUserById
 {
-    public class GetUserByIdQuery: QueryBase
+    public class GetUserByIdQuery: Request
     {
 
     }

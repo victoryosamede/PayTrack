@@ -84,3 +84,5 @@ C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\n
 C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\hp\OneDrive\Desktop\PayTrackApplication\PayTrackApplication\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

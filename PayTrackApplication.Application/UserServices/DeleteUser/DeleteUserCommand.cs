@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.DeleteUser;
 
-public class DeleteUserCommand: CommandBase
+public class DeleteUserCommand: Request
 {
 }

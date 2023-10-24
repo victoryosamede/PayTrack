@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.ForgotPassword
 {
-    public class ForgotPasswordCommand: CommandBase
+    public class ForgotPasswordCommand: Request
     {
         [Required]
         public string Email { get; set; } = string.Empty;

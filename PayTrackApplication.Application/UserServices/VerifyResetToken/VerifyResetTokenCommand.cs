@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.VerifyResetToken
 {
-    public class VerifyResetTokenCommand:CommandBase
+    public class VerifyResetTokenCommand:Request
     {
         public required string Email { get; set; }
         public required string Token { get; set; }

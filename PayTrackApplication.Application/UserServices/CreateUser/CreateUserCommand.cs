@@ -10,7 +10,7 @@ using static PayTrackApplication.Domain.Constants.Enums;
 
 namespace PayTrackApplication.Application.UserServices.CreateUser
 {
-    public class CreateUserCommand: CommandBase
+    public class CreateUserCommand: Request
     {
         [MaxLength(60), MinLength(3)]
         public required string UserName { get; set; }

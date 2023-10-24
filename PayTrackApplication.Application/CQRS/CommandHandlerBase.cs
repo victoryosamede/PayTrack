@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.CQRS
 {
-    internal class CommandHandlerBase<Cmd> : IRequestHandler<Cmd, ActionResponse> where Cmd : CommandBase
+    internal class CommandHandlerBase<Cmd> : IRequestHandler<Cmd, ActionResponse> where Cmd : Request
     {
         internal readonly IUserRepository _UserRepo;
         internal readonly IAuthenticationManager _authManager;
