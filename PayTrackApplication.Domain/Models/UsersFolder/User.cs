@@ -16,7 +16,7 @@ namespace PayTrackApplication.Domain.Models.UsersFolder
         public string? RefreshToken { get; set; }
         public string? PasswordResetToken { get; set; }
         public DateTime? ResetTokenExpires { get; set; }
-        public DateTime? ResetPasswordLifeSpan { get; set; }
+        public DateTime? RefreshTokenLifeSpan { get; set; }
         public bool IsFalseDelete { get; set; }
     }
 }

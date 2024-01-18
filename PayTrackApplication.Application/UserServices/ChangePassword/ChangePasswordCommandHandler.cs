@@ -20,7 +20,7 @@ namespace PayTrackApplication.Application.UserServices.ChangePassword
             if (user == null) return new ActionResponse("User is not found.", ResponseType.NotFound);
 
             if (!_authManager.VerifyPassword(user, request.CurrentPassword))
-                return new ActionResponse("Current password is invalid", ResponseType.NotFound);
+                return new ActionResponse("Current password is invalid", ResponseType.BadRequest);
 
             _authManager.ManagePassword(user, request.NewPassword);
             return await _UserRepo.UpdateEntity(user);

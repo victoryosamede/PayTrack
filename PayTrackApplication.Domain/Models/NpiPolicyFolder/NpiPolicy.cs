@@ -12,6 +12,6 @@ namespace PayTrackApplication.Domain.Models.NpiPolicyFolder
         public required Company Company { get; set; }
         public string? Description { get; set; }
         public List<NpiPolicyRule> Rules { get; set; } = new();
-        public decimal? Amount { get; set; }
+        public decimal Amount { get; set; }
     }
 }

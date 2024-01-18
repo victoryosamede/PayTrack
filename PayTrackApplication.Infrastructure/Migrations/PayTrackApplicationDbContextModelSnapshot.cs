@@ -24,9 +24,11 @@ namespace PayTrackApplication.Infrastructure.Migrations
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.CompanyFolder.Company", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -39,12 +41,14 @@ namespace PayTrackApplication.Infrastructure.Migrations
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.EmployeeFolder.Employee", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
 
-                    b.Property<Guid?>("CompanyId")
-                        .HasColumnType("uniqueidentifier");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
 
                     b.Property<string>("EmailAddress")
                         .IsRequired()
@@ -66,9 +70,11 @@ namespace PayTrackApplication.Infrastructure.Migrations
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.EmployeeFolder.EmployeePolicyRenewalValidation", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
@@ -86,21 +92,23 @@ namespace PayTrackApplication.Infrastructure.Migrations
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.NpiPolicyFolder.NpiPolicy", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<decimal?>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<Guid>("CompanyId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("CompanyId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("EmployeeId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("EmployeeId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -113,17 +121,22 @@ namespace PayTrackApplication.Infrastructure.Migrations
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.NpiPolicyFolder.NpiPolicyRule", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("NpiPolicyId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int?>("NpiPolicyId")
+                        .HasColumnType("int");
 
                     b.Property<int>("PolicyRuleType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ValueofNpi")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -131,19 +144,62 @@ namespace PayTrackApplication.Infrastructure.Migrations
                     b.HasIndex("NpiPolicyId");
 
                     b.ToTable("NpiPolicyRule");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Years of Service",
+                            PolicyRuleType = 100,
+                            ValueofNpi = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Level",
+                            PolicyRuleType = 100,
+                            ValueofNpi = 0
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Renewal Time",
+                            PolicyRuleType = 100,
+                            ValueofNpi = 0
+                        });
                 });
 
             modelBuilder.Entity("PayTrackApplication.Domain.Models.UsersFolder.User", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Role")
+                    b.Property<bool>("IsFalseDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RefreshTokenLifeSpan")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ResetTokenExpires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Roles")
                         .HasColumnType("int");
 
                     b.Property<string>("UserName")

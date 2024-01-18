@@ -10,6 +10,8 @@ namespace PayTrackApplication.Domain.Models.NpiPolicyFolder
     public class NpiPolicyRule: BaseModel
     {
        public string? Description { get; set; }
+
+       public int ValueofNpi {  get; set; }
        public PolicyRuleType PolicyRuleType { get; set; }
     }
 }

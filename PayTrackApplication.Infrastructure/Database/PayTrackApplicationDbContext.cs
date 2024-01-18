@@ -3,11 +3,15 @@ using PayTrackApplication.Domain.Models.CompanyFolder;
 using PayTrackApplication.Domain.Models.EmployeeFolder;
 using PayTrackApplication.Domain.Models.NpiPolicyFolder;
 using PayTrackApplication.Domain.Models.UsersFolder;
+using PayTrackApplication.Domain.Constants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+using PayTrackApplication.Infrastructure.Migrations;
 
 namespace PayTrackApplication.Infrastructure.Database
 {
@@ -23,7 +27,13 @@ namespace PayTrackApplication.Infrastructure.Database
         //    base.OnConfiguring(optionsBuilder);
         //    optionsBuilder.UseSqlServer(connectionString);
         //}
-       
+
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
+
+
         public DbSet<Company> Company { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<NpiPolicy> NpiPolicies { get; set; }

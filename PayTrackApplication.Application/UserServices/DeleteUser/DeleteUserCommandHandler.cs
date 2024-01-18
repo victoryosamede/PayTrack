@@ -1,4 +1,5 @@
-﻿using PayTrackApplication.Application.CQRS;
+﻿using MediatR;
+using PayTrackApplication.Application.CQRS;
 using PayTrackApplication.Application.Services.AuthenticationServices;
 using PayTrackApplication.Application.Services.PayTrackServices;
 using System;
@@ -9,13 +10,15 @@ using System.Threading.Tasks;
 
 namespace PayTrackApplication.Application.UserServices.DeleteUser
 {
-    internal class DeleteUserCommandHandler: CommandHandlerBase<DeleteUserCommand>
+    internal class DeleteUserCommandHandler: IRequestHandler<DeleteUserCommand, ActionResponse>
     {
-        public DeleteUserCommandHandler(IUserRepository userRepo, IAuthenticationManager authManager) : base(userRepo, authManager)
+        internal readonly IUserRepository _UserRepo;
+        public DeleteUserCommandHandler(IUserRepository userRepo)
         {
+            _UserRepo = userRepo;
         }
 
-        public override async Task<ActionResponse> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
+        public async Task<ActionResponse> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
         {
             var user = await _UserRepo.GetById(request.Id);
             if (user == null) return new ActionResponse("User is not found.", ResponseType.NotFound);

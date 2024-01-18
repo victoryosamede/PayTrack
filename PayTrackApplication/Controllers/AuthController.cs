@@ -1,9 +1,5 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using PayTrackApplication.Application;
-using PayTrackApplication.Application.DTO;
-using PayTrackApplication.Application.Services.AuthenticationServices;
-using PayTrackApplication.Application.Services.PayTrackServices;
 using PayTrackApplication.Application.UserServices.ChangePassword;
 using PayTrackApplication.Application.UserServices.CreateUser;
 using PayTrackApplication.Application.UserServices.DeleteUser;
@@ -13,8 +9,6 @@ using PayTrackApplication.Application.UserServices.GetUserById;
 using PayTrackApplication.Application.UserServices.LoginUser;
 using PayTrackApplication.Application.UserServices.ResetPassword;
 using PayTrackApplication.Application.UserServices.VerifyResetToken;
-using PayTrackApplication.Domain.Models.UsersFolder;
-using System.Data;
 
 namespace PayTrackApplication.Controllers
 {

@@ -3930,9 +3930,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\PayTrackApplication\\PayTrackApplication\\PayTrackApplication.csproj",
-      "projectName": "PayTrackApplication",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\PayTrackApplication\\PayTrackApplication\\PayTrackApplication.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\PayTrackApplication\\PayTrackApplication\\PayTrack.Api.csproj",
+      "projectName": "PayTrack.Api",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\PayTrackApplication\\PayTrackApplication\\PayTrack.Api.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\PayTrackApplication\\PayTrackApplication\\obj\\",
       "projectStyle": "PackageReference",

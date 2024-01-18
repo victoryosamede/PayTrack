@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTrackApplication", "PayTrackApplication\PayTrackApplication.csproj", "{DACF766E-A091-4078-A94D-F669FB17FBAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTrack.Api", "PayTrackApplication\PayTrack.Api.csproj", "{DACF766E-A091-4078-A94D-F669FB17FBAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B436C2C6-3E68-4108-9253-6A0601B69EA0}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTrackApplication.Application", "PayTrackApplication.Application\PayTrackApplication.Application.csproj", "{C2C94787-D1C4-431B-AADF-29AD3BB524CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTrackApplication.Infrastructure", "PayTrackApplication.Infrastructure\PayTrackApplication.Infrastructure.csproj", "{6D6D7BB4-0F14-44BC-8BDC-7954EB277F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{28BB89DC-9745-4FDF-BA8D-D36888158882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTrackApi.Test", "PayTrackApi.Test\PayTrackApi.Test.csproj", "{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{6D6D7BB4-0F14-44BC-8BDC-7954EB277F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6D7BB4-0F14-44BC-8BDC-7954EB277F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6D7BB4-0F14-44BC-8BDC-7954EB277F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{76E97FAC-3E35-4433-82BC-8122AA558A6E} = {B436C2C6-3E68-4108-9253-6A0601B69EA0}
 		{C2C94787-D1C4-431B-AADF-29AD3BB524CB} = {B436C2C6-3E68-4108-9253-6A0601B69EA0}
 		{6D6D7BB4-0F14-44BC-8BDC-7954EB277F26} = {B436C2C6-3E68-4108-9253-6A0601B69EA0}
+		{EBE2A25C-B337-40A8-9B4C-6F44DD4254D7} = {28BB89DC-9745-4FDF-BA8D-D36888158882}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {382F51A9-2865-4D5B-BF09-6762C99CEF88}

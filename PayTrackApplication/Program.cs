@@ -1,4 +1,4 @@
-global using PayTrackApplication.Domain.Models;
+   global using PayTrackApplication.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using PayTrackApplication.Application.Services.PayTrackServices;
 using PayTrackApplication.Infrastructure.Database;
